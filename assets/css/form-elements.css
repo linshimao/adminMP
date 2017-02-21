@@ -1,0 +1,142 @@
+input[type="text"],
+input[type="password"],
+textarea,
+textarea.form-control {
+  height: 50px;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: middle;
+  background: #fff;
+  border: 3px solid #fff;
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #888;
+  border-radius: 4px;
+  box-shadow: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+textarea,
+textarea.form-control {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+  outline: 0;
+  background: #fff;
+  border: 3px solid #fff;
+  box-shadow: none;
+}
+
+input[type="text"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+textarea:-moz-placeholder,
+textarea.form-control:-moz-placeholder {
+  color: #888;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+textarea.form-control:-ms-input-placeholder {
+  color: #888;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+textarea.form-control::-webkit-input-placeholder {
+  color: #888;
+}
+
+button.btn {
+  height: 50px;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: middle;
+  background: #45af29;
+  border: 0;
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 4px;
+  text-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+button:nth-last-child(1) {
+  margin-top: 1rem;
+}
+
+button.btn:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+button.btn:active {
+  outline: 0;
+  opacity: 0.6;
+  color: #fff;
+  box-shadow: none;
+}
+
+button.btn:focus {
+  outline: 0;
+  opacity: 0.6;
+  background: #de615e;
+  color: #fff;
+}
+
+button.btn:active:focus,
+button.btn.active:focus {
+  outline: 0;
+  opacity: 0.6;
+  background: #de615e;
+  color: #fff;
+}
+
+
+/*register style set*/
+
+input[name="verity"] {
+  width: 60%;
+}
+
+input[type="submit"] {
+  line-height: 37px;
+  height: 50px;
+  background: #45af29;
+  color: #fff;
+  border: none;
+  letter-spacing: 1px;
+  float: right;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 170px;
+  font-family: 'Microsoft YaHei';
+}
+
+input[type="submit"]:hover {
+  opacity: .8;
+  background: #45af29;
+  color: #fff;
+}
+
+input[type="submit"]:disabled {
+  background: #ed5266;
+  color: #fff;
+}
